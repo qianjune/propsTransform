@@ -1,0 +1,46 @@
+const demoData = {
+  dataCenter: "NA-Mexico City2(Equinix MX2)",
+  num: 10000,
+  billType: "2",
+  remark: null,
+  mrcTotalPrice: "34715.00000",
+  config_info: {
+    networkinfo: [],
+    merge_service_id: "0",
+    merge_flow_name: "新建带宽组",
+    bd_base_vol: "10000",
+    merge_cross_idc_service: false,
+    merge_flow_id: "0",
+    charging_ways: "1",
+    bd_overage_price: "3.4715",
+    no_commit: false,
+    merge_service_name: "新建带宽组服务",
+    commit_unit: "Mbps",
+    cap: "60000",
+    detail_info: "单价3.4715",
+    b_bandwidth: "4",
+    flow_id: "208104",
+    bd_base_price: "3.4715",
+    bandwidth_cap: "1",
+    diskinfo: [],
+  },
+  nrcTotalPrice: "0.00000",
+  skuName: "IP Transit",
+  itemId: 4772,
+  mrcPrice: "3.47150",
+  quoteServiceId: 72048,
+  skuCode: null,
+  nrcPrice: "0.00000",
+  status: 1,
+};
+
+const config = [
+  {
+    local: "dc",
+    remote: "dataCenter",
+  },
+  {
+    local: "number",
+    remote: "num",
+  },
+];
